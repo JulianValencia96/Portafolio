@@ -1,0 +1,45 @@
+body{text-align:justify; }
+#logo{width: 90%; min-height: 250px; margin: 0px auto;	}
+#logo img{position:relative; top: 15px; right: 15px; width: 180px; height: 180px; float: right;}
+ul>li{list-style-type: none; display: inline; text-align: center; font-size: 1.5em; font-family: "impact"; color:#ADD7F0; border-left: 1px solid black; padding:5px 8px;}
+a{text-decoration:none; color:#ADD7F0;}
+a:hover{color:#01CEED; font-size: 1.6em; cursor:pointer;}
+.containers{width: 80%; margin:50px auto; color:#176AC5; }
+#p1{font-size:1.6rem;}
+#p2 img{
+	width: 350px; height: 350px; border-radius:10px;
+
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+    padding-top: 7px;
+
+}
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+#p2 h1{border: 3px dashed purple; border-radius:12px; text-align: center; padding:8px;}
+#p4 img{width: 70%; height: 650px; border-radius:15px 0px; border:3px solid gray; margin-top: 30px;}
+#p4 img{
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#p4 h1{font-family: fantasy; text-align: right; border-bottom: 1px solid black; border-right: 1px solid black; padding: 12px;}
+#p3 span, #p3 h1{font-size:1.5em; margin-top:30px; text-align: center; display: block; line-height: 2em; }
