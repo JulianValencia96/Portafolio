@@ -381,6 +381,12 @@ footer{
     .navbar-brand{
         display: none;
     }
+     .carousel-inner{
+        height: 800px;
+        padding-top: 150px;
+    }
+
+
 }
 @media screen and (min-width: 700px){
     .hero-inferior-imagen{
